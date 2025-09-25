@@ -4,7 +4,7 @@
 Bu proje, MRI görüntüleri kullanarak beyin tümörlerini sınıflandırmayı amaçlar. CNN tabanlı bir model geliştirilmiş; modelin kararları Grad-CAM ile görselleştirilerek açıklanabilirlik sağlanmıştır.
 
 ## Veri Seti  
-- **Ad:** masoudnickparvar / brain-tumor-mri-dataset  
+- **Ad:** [Masoud Nickparvar](https://www.kaggle.com/masoudnickparvar) / [brain-tumor-mri-dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset/)
 - **Link:** https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset  
 - **Sınıflar:** Glioma, Meningioma, Pituitary, No Tumor  
 - **Toplam Görüntü:** Yaklaşık 7.000 civarı (train + test)  
@@ -42,9 +42,6 @@ Bu proje, MRI görüntüleri kullanarak beyin tümörlerini sınıflandırmayı 
 2. “Add data” kısmından **brain-tumor-mri-dataset** dataset’ini ekle.  
 3. Yukarıdaki `project_notebook.ipynb` dosyasını yükle ya da hücreleri yapıştırarak çalıştır.  
 4. Model eğitiminden sonra sonuçları ve Grad-CAM görsellerini incele.
-
-## Kaggle Linki
-[brain-tumor-mri-classification](https://www.kaggle.com/code/bugrayildirim/brain-tumor-mri-classification)
 
 ## Lisans & Teşekkür  
 - Bu proje sadece eğitim amaçlıdır.  
