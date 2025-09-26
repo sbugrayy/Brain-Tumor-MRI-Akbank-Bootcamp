@@ -28,7 +28,7 @@ Bu proje, MRI görüntüleri kullanarak beyin tümörlerini sınıflandırmayı 
    - Grad-CAM ile modelin hangi bölgeleri dikkate aldığı  
 
 ## Sonuçlar  
-- **En iyi validation accuracy:** *(buraya kendi değerini yaz)*  
+- **En iyi validation accuracy:** *%84*  
 - Confusion matrix ve classification report ile sınıf bazlı performans analizi yapılmıştır.  
 - Grad-CAM görselleştirmeleri modelin görüntülerdeki tümör bölgelerini tespit etmede mantıklı bölgeleri kullandığını göstermektedir / göstermemektedir.  
 
@@ -36,12 +36,6 @@ Bu proje, MRI görüntüleri kullanarak beyin tümörlerini sınıflandırmayı 
 - Daha güçlü transfer learning modelleri ile fine-tuning  
 - Class imbalance var ise oversampling / class weights uygulama  
 - Segmentasyon + sınıflandırma birleşik modeller (örneğin U-Net + CNN)  
-
-## Çalıştırma Talimatları  
-1. Kaggle üzerinde yeni bir notebook aç.  
-2. “Add data” kısmından **brain-tumor-mri-dataset** dataset’ini ekle.  
-3. Yukarıdaki `project_notebook.ipynb` dosyasını yükle ya da hücreleri yapıştırarak çalıştır.  
-4. Model eğitiminden sonra sonuçları ve Grad-CAM görsellerini incele.
 
 ## Lisans & Teşekkür  
 - Bu proje sadece eğitim amaçlıdır.  
