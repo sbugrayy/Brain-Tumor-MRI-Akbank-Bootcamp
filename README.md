@@ -35,8 +35,10 @@ Bu proje, MRI görüntüleri kullanarak beyin tümörlerini sınıflandırmayı 
 ## Gelecekteki Geliştirmeler  
 - Daha güçlü transfer learning modelleri ile fine-tuning  
 - Class imbalance var ise oversampling / class weights uygulama  
-- Segmentasyon + sınıflandırma birleşik modeller (örneğin U-Net + CNN)  
+- Segmentasyon + sınıflandırma birleşik modeller (örneğin U-Net + CNN)
 
+## Sonuçlar 
+- Kaggle linki: https://www.kaggle.com/code/bugrayildirim/brain-tumor-mri-classification
 ## Lisans & Teşekkür  
 - Bu proje sadece eğitim amaçlıdır.  
 - Veri seti için [Masoud Nickparvar](https://www.kaggle.com/masoudnickparvar) ve Kaggle topluluğuna teşekkürler.  
